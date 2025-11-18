@@ -151,6 +151,8 @@ func TestHandler_List(t *testing.T) {
 			formID: uuid.New(),
 			userID: uuid.New(),
 			setMock: func(store *mocks.Store, formID uuid.UUID) {
+				store.On("IsBookmarked", mock.Anything, mock.Anything, mock.Anything).Return(
+					true, nil)
 				store.On("List", mock.Anything, mock.Anything, mock.Anything, mock.Anything).Return(
 					forms, nil)
 			},
