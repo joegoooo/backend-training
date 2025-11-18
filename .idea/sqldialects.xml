@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/internal/bookmark/queries.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/internal/database/full_schema.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/internal/database/migrations/1_forms.down.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/database/migrations/1_forms.up.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/database/migrations/2_users.down.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/database/migrations/2_users.up.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/database/migrations/5_bookmark.up.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/internal/form/queries.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/form/schema.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/user/queries.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/user/schema.sql" dialect="GenericSQL" />
+  </component>
+</project>
